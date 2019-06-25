@@ -1,7 +1,6 @@
 body {
   background-image: url("../images/united-squares-negative.jpg");
 }
-/* This is the main header container to hold name and links */
 
 .textcolor {
   color: #777777;
@@ -12,11 +11,10 @@ body {
   color: #777777;
 }
 
-head {
+.head {
   background-color: #ffffff;
   margin: 0 auto;
   position: relative;
-  
 }
 
 a {
@@ -29,14 +27,12 @@ a {
 
 ul {
   list-style-type: none;
-  /* margin: 0 auto; */
   padding: 0px;
   background-color: #ffffff;
   color: #777777;
   position: relative;
   float: right;
   max-height: 50px;
-  /* overflow: hidden; */
 }
 
 a:hover {
