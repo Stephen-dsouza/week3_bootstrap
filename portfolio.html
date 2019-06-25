@@ -1,87 +1,89 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+<!doctype html>
+<html lang="en">
 
-    <title>PORTFOLIO</title>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <body>
-    <div class="mainheader">
-      <Header class="name">STEPHEN D'SOUZA</Header>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
-      <!-- <div class="topnav"> -->
+  <title>PORTFOLIO</title>
+</head>
 
-      <ul>
-        <li><a href="./contact.html" target="_blank">Contact</a></li>
-        <li><a href="./Portfolio.html" target="_blank">Portfolio</a></li>
-        <li><a href="./index.html" target="_blank">About</a></li>
+<body>
+
+  <div class="head container">
+    <nav class="navbar navbar-light navbar-collapse ">
+      <a class="navbar-brand name  " href="index.html">STEPHEN D'SOUZA</a>
+
+
+
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a></li>
       </ul>
 
-      <!-- </div> -->
-    </div>
-    <div class="clearfix"></div>
+    </nav>
+  </div>
 
-    <div class="maincontent">
-      <section class="aboutme">
-        <h1>Portfolio</h1>
-      </section>
 
-      <hr />
-      <div class="portfoliocontent">
-        <div class="img1">
-          <img
-            src="./assets/images/port_image1.jpg"
-            class="portfolioimages"
-            alt="Hangman"
-          />
-          <h3 class="imagename">HANGMAN</h3>
+
+  <div class="container maincontent ">
+    <h1 class="mt-5 textcolor">Portfolio</h1>
+    <hr>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="./assets/images/port_image1.jpg" class="rounded float-left portfolioimages" alt="Hangman" />
+          <h6 class="imagename">HANGMAN</h6>
         </div>
-        <!-- class="portfolioimages" -->
-
-        <div class="img1">
-          <img
-            src="./assets/images/port_image2.jpg"
-            class="portfolioimages"
-            alt="RPG Game"
-          />
+        <div class="col-sm-4">
+          <img src="./assets/images/port_image2.jpg" class="portfolioimages" alt="RPG Game" />
           <h3 class="imagename">RPG GAME</h3>
         </div>
+      </div>
+      </div>
 
-        <div class="clearfix"></div>
-
-        <div class="img1">
-          <img
-            src="./assets/images/port_image3.jpg"
-            class="portfolioimages"
-            alt="Trivia Game"
-          />
-          <h3 class="imagename">Trivia Game</h3>
+      <div class="container ">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="./assets/images/port_image3.jpg" class="portfolioimages" alt="Trivia Game" />
+            <h3 class="imagename">Trivia Game</h3>
+          </div>
+          <div class="col-sm-4">
+            <img src="./assets/images/port_image4.jpg" class="portfolioimages" alt="Rutgers Info Widget" />
+            <h3 class="imagename">Rutgers Info Widget</h3>
+          </div>
         </div>
-        <div class="img1">
-        <img
-          src="./assets/images/port_image4.jpg"
-          class="portfolioimages"
-          alt="Rutgers Info Widget"
-        />
-        <h3 class="imagename">Rutgers Info Widget</h3>
       </div>
-        <div class="clearfix"></div>
+        <div class="container ">
+          <div class="row">
+            <div class="col-sm-4">
+              <img class="portfolioimages" src="./assets/images/port_image5.jpg" alt="Rock Paper Scissors" />
+              <h3 class="imagename">Rock Paper Scissors</h3>
+            </div>
 
-        <div class="img1">
-        <img
-          src="./assets/images/port_image5.jpg"
-          class="portfolioimages"
-          alt="Rock Paper Scissors"
-        />
-        <h3 class="imagename">Rock Paper Scissors</h3>
-      </div>
-      </div>
+          </div>
 
-      <div class="clearfix"></div>
-    </div>
-    <footer>Copyright@</footer>
-  </body>
+
+        </div>
+
+        <footer class="footer mt-auto py-3">
+          <div class="container">
+            <span class="text-muted">Copyright@</span>
+          </div>
+
+</body>
+
 </html>

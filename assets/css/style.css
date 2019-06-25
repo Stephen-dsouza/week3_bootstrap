@@ -74,9 +74,7 @@ h1 {
   font-size: 30px;
   padding: 5px;
 }
-.image {
-  float: left;
-}
+
 #content {
   padding: 5px;
   font-size: 30px;
@@ -102,11 +100,10 @@ footer {
 }
 /* Porfolio images styling */
 
-.portfolio content {
-  display: block;
-  float: left;
+.portfoliocontent {
+  
+  padding-left: 0px;
 }
-
 .portfolioimages {
   float: left;
   background-size: contain;
