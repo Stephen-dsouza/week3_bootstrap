@@ -74,15 +74,17 @@ h1 {
   padding: 5px;
 }
 
-#content {
+.content {
   padding: 5px;
-  font-size: 30px;
+  font-size: 20px;
   width: fit-content;
   position: relative;
-  line-height: 20px;
+  line-height: 30px;
+  
 }
-.card-text {
-  position: absolute;
+.mainimage{
+ 
+  float: left;
 }
 footer {
   position: relative;
@@ -101,16 +103,15 @@ footer {
 
 
 .portfolioimages {
-  float: left;
+ 
   background-size: contain;
-  width: 250px;
+  /* width: 250px; */
   max-width: 100%;
   height: auto;
   border: 2px solid;
   color: blue;
-  resize: both;
-  overflow: auto;
   position: relative;
+
   margin: 10px 10px;
   z-index: 1;
 }
@@ -121,17 +122,19 @@ footer {
 
 
 .imagename {
-  top: 65%;
-  padding: 10px 0px;
-  width: 250px;
-  left: 12px;
-  font-size: 18px;
+  width: 50%;
+  max-height: 200px;
+  top: 60%;
+  margin: 0px 20px 0px 20px;
+  padding: 10px 50px;
+  font-size: 10px;
   color: #dddddd;
   position: absolute;
   background-color: #4aaaa5;
   z-index: 1;
   text-align: center;
   font-weight: bolder;
+  overflow: hidden;
 }
 
 /* Contact styling */
