@@ -122,7 +122,9 @@ footer {
 
 
 .imagename {
-  width: 50%;
+  left:10%;
+  right:10%;
+  bottom:10%;
   max-height: 200px;
   top: 60%;
   margin: 0px 20px 0px 20px;
